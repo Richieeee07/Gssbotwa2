@@ -22,34 +22,34 @@ global.APIs = {
 
 // Other
 global.apikey = 'bf2d2cf29b3edc604b447983';
-global.ownername = '𝑆𝛪𝐷 𝐵𝛨𝛥𝛪';
-global.owner = ['917050906659'];
-global.premium = ['917050906659'];
+global.ownername = '𝚪𝚰𝐂𝚮𝚰𝚵';
+global.owner = ['2349069124958'];
+global.premium = ['2349069124958'];
 global.packname = '𝚜𝚝𝚒𝚌𝚔𝚎𝚛 𝚋𝚢';
-global.author = '𝐆𝐒𝐒 𝚩𝚯𝚻𝐖𝚫';
+global.author = '𝚪𝚰𝐂𝚮𝚰𝚵';
 global.sessionName = 'session';
-global.prefa = ['!', '.'];
+global.prefa = ['!'];
 global.sp = '✪';
 global.mess = {
     banned: '`You are *Banned* fron using commands!`',
     bangc: '`This Group is *Banned* from using Commands!`',
-    success: '`✓ Success`',
+    success: '`✓ Sharp!`',
     admin: '`This feature is only for group admins`',
     botAdmin: '`I am not an admin!`',
     owner: '`You are not my owner`',
     group: '`You can use this command only in groups ❌`',
     private: '`Feature is used only for private chats!`',
     bot: '`Bot number user special features`',
-    wait: '*Processing Your request*',
+    wait: '*You go chill, I dey process your request*',
     endLimit: '`Your daily limit has expired, the limit will be reset every 12 hours`',
 };
-global.link = 'https://whatsapp.com/channel/0029VaWJMi3GehEE9e1YsI1S'
-global.linkGroup = 'https://chat.whatsapp.com/E3PWxdvLc7ZCp1ExOCkEGp'
-global.autoswview = process.env.AUTO_STATUS_SEEN || "true",
+global.link = 'https://whatsapp.com/channel/0029VaGO2WEFSAt6XpnWoW0n'
+global.linkGroup = 'https://chat.whatsapp.com/I2SeBXj8H4Q47EbSFYdaIK'
+global.autoswview = process.env.AUTO_STATUS_SEEN || "false",
 global.typemenu = 'v1' // 'v1' => 'v5'
 global.onlygroup = false // onlygroup
 global.onlypc = false
-global.welcome = process.env.WELCOME_MSG || "true",
+global.welcome = process.env.WELCOME_MSG || "false",
 global.AUTO_ABOUT = false
 global.limitawal = {
     premium: 'Infinity',
@@ -59,7 +59,7 @@ global.limitawal = {
 // Add anticall option
 global.config = {
     options: {
-        antiCall: true, // Set to true for anticall functionality, false otherwise
+        antiCall: false, // Set to true for anticall functionality, false otherwise
     },
 };
 
