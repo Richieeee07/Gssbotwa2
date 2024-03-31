@@ -212,8 +212,8 @@ gss.ev.on('group-participants.update', async (anu) => {
                 // Welcome message
                 if (anu.action == 'add') {
                     const userName = num.split('@')[0];
-                    const joinTime = moment.tz('Asia/Kolkata').format('HH:mm:ss');
-                    const joinDate = moment.tz('Asia/Kolkata').format('DD/MM/YYYY');
+                    const joinTime = moment.tz('Africa/Lagos').format('HH:mm:ss');
+                    const joinDate = moment.tz('Africa/Lagos').format('DD/MM/YYYY');
                     const membersCount = metadata.participants.length;
 
                     const welcomeMessage = `> Hello @${userName}! Welcome to *${metadata.subject}*.\n> You are the ${membersCount}th member.\n> Joined at: ${joinTime} on ${joinDate}`;
@@ -233,8 +233,8 @@ gss.ev.on('group-participants.update', async (anu) => {
                 // Left message
                 else if (anu.action == 'remove') {
                     const userName = num.split('@')[0];
-                    const leaveTime = moment.tz('Asia/Kolkata').format('HH:mm:ss');
-                    const leaveDate = moment.tz('Asia/Kolkata').format('DD/MM/YYYY');
+                    const leaveTime = moment.tz('Africa/Lagos').format('HH:mm:ss');
+                    const leaveDate = moment.tz('Africa/Lagos').format('DD/MM/YYYY');
                     const membersCount = metadata.participants.length;
 
                     const leftMessage = `> Goodbye @${userName} from ${metadata.subject}.\n> We are now ${membersCount} in the group.\n> Left at: ${leaveTime} on ${leaveDate}`;
